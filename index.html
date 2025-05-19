@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="icon" href="favicon.ico" type="image/ico" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Axios -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"
+      integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ=="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <main>
+      <!-- Chat Header -->
+      <header>
+        <div class="contact">
+          <img
+            src="img/avatar_1.jpg"
+            alt="Contact Avatar"
+            class="contact-pic"
+          />
+          <span class="contact-name">Marco Lanci</span>
+        </div>
+      </header>
+      <div id="chat-box">
+        <!-- <div class="message-container sent">
+          <div class="message">
+            <p>Contenuto</p>
+            <time datetime="${message.timestamp}">data</time>
+          </div>
+        </div>
+
+        <div class="message-container received">
+          <div class="message">
+            <p>Contenuto</p>
+            <time datetime="${message.timestamp}">data</time>
+          </div>
+        </div> -->
+      </div>
+      <footer>
+        <input
+          type="text"
+          placeholder="Scrivi un messaggio"
+          id="message-input"
+        />
+        <i class="fas fa-paper-plane" id="send-button"></i>
+      </footer>
+    </main>
+
+    <script type="module" src="./js/script.js"></script>
+  </body>
+</html>
